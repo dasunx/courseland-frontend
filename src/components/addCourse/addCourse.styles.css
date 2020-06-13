@@ -1,0 +1,22 @@
+.add-course {
+    margin-top: 2rem;
+    padding: 1rem;
+    box-shadow: 0 0.1rem 1rem #a7a5a5;
+}
+
+.secondary-title {
+    text-align: center;
+    width: 100%;
+    font-size: 2rem;
+    display: inline-block;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+.submit-btn {
+    background-image: linear-gradient(to right top, var(--purple), var(--pink));
+    color: var(--primary-light);
+    height: 3rem;
+    font-size: 1.3rem;
+    font-weight: 600;
+}

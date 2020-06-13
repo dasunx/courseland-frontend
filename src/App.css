@@ -1,0 +1,76 @@
+:root {
+    --primary-color: #f5f5f5;
+    --primary-dark: #e0dede;
+    --primary-light: #fff;
+    --black: #000;
+    --pink: #ffa5b0;
+    --purple: #a83dc1;
+}
+
+html {
+    font-family: 'Raleway', sans-serif;
+    background-color: var(--primary-light);
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+.navbar-brand {
+    font-size: 1.5rem;
+    background-image: linear-gradient(to right, var(--purple), var(--pink));
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent !important;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.navbar {
+    -webkit-box-shadow: 0px 0px 25px -9px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 25px -9px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 25px -9px rgba(0, 0, 0, 0.75);
+    z-index: 2;
+}
+
+.nav-link {
+    cursor: pointer;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: var(--purple) !important;
+}
+
+.landing-image {
+    height: 60vh;
+    box-shadow: 0px 0px 25px -9px rgba(0, 0, 0, 0.75);
+    background-image: url(https://www.anzsog.edu.au/images/online-learning.jpg);
+    background-size: cover;
+    background-position: top;
+    position: relative;
+    z-index: 1;
+}
+
+.text-box {
+    color: var(--black);
+    font-size: 4rem;
+    font-weight: 600;
+    text-shadow: 2px 2px var(--primary-light);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.get-started-btn {
+    background-color: var(--purple);
+    color: var(--primary-light);
+    padding: 0.8rem 3rem;
+    text-shadow: none !important;
+    transition: all 0.2s;
+}
+
+.get-started-btn:hover {
+    color: var(--primary-light);
+    transform: scale(1.1);
+}
