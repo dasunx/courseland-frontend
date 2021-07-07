@@ -1,7 +1,5 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-[![Runme](https://runme.io/static/button.svg)](https://runme.io/run?app_id=0c744a91-a9aa-461e-8dd5-65a21af921b9)
-
 ## Available Scripts
 
 In the project directory, you can run:
